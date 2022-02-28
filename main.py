@@ -3,7 +3,6 @@
 from discord.ext import commands
 import os
 
-# initialise the bot with the token OTQ3OTYxMzcwMjExNjU5Nzc2.Yh030g.Msw8EpuDwo4H-XlAGk9tOF_EqYk
 bot = commands.Bot(command_prefix='!')
 
 @bot.command("compile-to-urcl")
@@ -38,4 +37,4 @@ async def emulate_hexagn(ctx):
         
 
 
-bot.run("OTQ3OTYxMzcwMjExNjU5Nzc2.Yh030g.Msw8EpuDwo4H-XlAGk9tOF_EqYk")
+bot.run("")
