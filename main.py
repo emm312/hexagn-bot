@@ -1,5 +1,6 @@
 
 # initialise the library
+from optparse import AmbiguousOptionError
 from discord.ext import commands
 import os
 
