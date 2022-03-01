@@ -37,4 +37,4 @@ async def emulate_hexagn(ctx):
         
 
 
-bot.run("OTQ3OTYxMzcwMjExNjU5Nzc2.Yh030g.2ePl1RkxLNuzVOmEg_eOSPHJxAo")
+bot.run("")
