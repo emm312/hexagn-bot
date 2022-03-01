@@ -16,7 +16,7 @@ async def compile_to_urcl(ctx):
         with open("out.urcl", "r") as file:
             await ctx.send("```"+file.read()+"```")
     except IndexError:
-        await ctx.send("Please provide code to compile")
+        await ctx.send("Please provide code to compile or put your code in codeblocks.")
 
 
 @bot.command("emulate-hexagn")
@@ -37,4 +37,8 @@ async def emulate_hexagn(ctx):
         
 
 
-bot.run("")
+#run the bot with the token in the.env file
+import dotenv
+dotenv.load_dotenv()
+print(os.getenv("DISCORD_TOKEN"))
+bot.run(os.getenv("DISCORD_TOKEN"))
