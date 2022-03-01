@@ -40,5 +40,4 @@ async def emulate_hexagn(ctx):
 #run the bot with the token in the.env file
 import dotenv
 dotenv.load_dotenv()
-print(os.getenv("DISCORD_TOKEN"))
 bot.run(os.getenv("DISCORD_TOKEN"))
